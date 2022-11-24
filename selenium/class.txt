@@ -1,0 +1,52 @@
+//classes and objects
+class is a collection of data member and member function
+
+data member: the variables which are declared inside a class are known as a data member
+
+example:
+
+class class_name
+{
+	public void methodname //member function
+	{
+	string variable //data member
+	}
+}
+
+member function: the functions which are declared inside a class are known as a member function
+example:
+class Operations
+{
+	public void add()
+	{
+		int a=10,b=20;
+		int c=a+b;
+		s.o.p("add"+c);
+	}
+	public void sub()
+	{
+		int a=10,b=20;
+		int c=a-b;
+		s.o.p("sub"+c);
+	}
+	public void mul()
+	{
+		int a=10,b=20;
+		int c=a*b;
+		s.o.p("mul"+c);
+	}
+	public static void main(String args[])
+	{
+		Operations op=new Operations();
+		op.add();
+		op.sub();
+		op.mul();
+	}
+}
+		
+
+
+
+		
+
+

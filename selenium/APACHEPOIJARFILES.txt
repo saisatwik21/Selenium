@@ -1,0 +1,23 @@
+APACHE POI 3.17 JARFILES:
+THIS JAR FILE IS used to retrieve the data from the excel sheet.
+based on the version we can save the file either by 
+.xls
+.xlsx
+before working out on excel sheet  we need to import apache jar files into project we can read the data,write the data, fetch the data from the required appplication and check the functionality using excel sheet.
+Methods used in Apache poi jar files are:
+
+1. file input stream- >to read the data from current excel sheet
+2. file output stream- >to write the data into excel sheet
+3. xssfworkbook-->to get the current workbook from the excel sheet
+4. xssfsheet-->to get the current sheet id.
+5. Iterator-->to count the no of rows and no of columns
+6. hasNext-to check wether the column header is existing or not
+7. Next-to move to next location(cell->row)
+8. getRowCount->to count the no of rows from current excel sheet
+9.getStringcellvalue->to get the text values from the current sheet.
+10.getnumericcellvalue->to get the values from the current sheet(integers).
+11.getcelltype->to check wether the cell type is string or numeric.
+12.getrow->to get the current row id from the current sheet.
+13.setstringcellvalue->to enter some strings(names) in a particular row or column from the current sheet.
+
+

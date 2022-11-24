@@ -1,0 +1,24 @@
+1) DATA-DRIVEN
+ TESTING
+
+REPUTATION OF TEST SCRIPTS FOR MULTIPLE TIMES WITH MULTIPLE TEST  DATA ON THE SAME BUILD BY USING EXTERNAL FILE USING(XLSHEET)
+
+a) Fetch the dropdown elements from the amazon page and store them in the zeroth column if the elements are stored then the results
+displayed in the first column in the excel sheet
+
+DROP-DOWN ELEMENTS 	RESULT
+
+b)Fetch the link names from the amazon page and store them in the zeroth column if the elements are stored then the results
+displayed in the first column in the excel sheet
+Link names    				results
+
+c)Fetch the link names from the new tours page and store them in the zeroth column in an excel sheet, get the title from the application, and display it in
+the first column and URL into 2nd column in the excel sheet
+
+link name  	title of the page   			URL of the page
+
+
+d)Fetch the link names from the new tours page and store them in the zeroth column in an excel sheet, check the expected title to the actual title, if the
+expected title is equal to the actual title then the results should be true, else failed in the excel sheet.
+link name 	expected URL 		actual URL 		Test results 
+

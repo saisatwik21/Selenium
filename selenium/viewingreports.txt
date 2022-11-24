@@ -1,0 +1,11 @@
+refresh the project
+
+test-output folder will generates
+
+under test-output select index.html file
+
+right click on it
+
+open with
+webbrowser
+to view the reports click on chronologiczl view
